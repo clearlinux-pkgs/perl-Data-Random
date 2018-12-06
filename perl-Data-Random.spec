@@ -85,11 +85,11 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.1Data/Random.pm
-/usr/lib/perl5/vendor_perl/5.28.1Data/Random/WordList.pm
-/usr/lib/perl5/vendor_perl/5.28.1Data/Random/dict
-/usr/lib/perl5/vendor_perl/5.28.1auto/share/dist/Data-Random/README.linux.words
-/usr/lib/perl5/vendor_perl/5.28.1auto/share/dist/Data-Random/README2.linux.words
+/usr/lib/perl5/vendor_perl/5.28.1/Data/Random.pm
+/usr/lib/perl5/vendor_perl/5.28.1/Data/Random/WordList.pm
+/usr/lib/perl5/vendor_perl/5.28.1/Data/Random/dict
+/usr/lib/perl5/vendor_perl/5.28.1/auto/share/dist/Data-Random/README.linux.words
+/usr/lib/perl5/vendor_perl/5.28.1/auto/share/dist/Data-Random/README2.linux.words
 
 %files dev
 %defattr(-,root,root,-)
