@@ -4,7 +4,7 @@
 #
 Name     : perl-Data-Random
 Version  : 0.13
-Release  : 20
+Release  : 21
 URL      : https://cpan.metacpan.org/authors/id/B/BA/BAREFOOT/Data-Random-0.13.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BA/BAREFOOT/Data-Random-0.13.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libd/libdata-random-perl/libdata-random-perl_0.12-1.debian.tar.xz
