@@ -4,7 +4,7 @@
 #
 Name     : perl-Data-Random
 Version  : 0.13
-Release  : 21
+Release  : 22
 URL      : https://cpan.metacpan.org/authors/id/B/BA/BAREFOOT/Data-Random-0.13.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BA/BAREFOOT/Data-Random-0.13.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libd/libdata-random-perl/libdata-random-perl_0.12-1.debian.tar.xz
@@ -110,8 +110,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Data/Random.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Data/Random/WordList.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Data/Random/dict
-/usr/lib/perl5/vendor_perl/5.34.0/auto/share/dist/Data-Random/README.linux.words
-/usr/lib/perl5/vendor_perl/5.34.0/auto/share/dist/Data-Random/README2.linux.words
+/usr/lib/perl5/*
